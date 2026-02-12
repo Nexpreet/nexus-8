@@ -1,0 +1,25 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# CLion
+.idea/
+
+# Object files
+*.o
+*.obj
+*.a
+
+# Executables
+*.out
+*.exe
+
+# OS junk
+.DS_Store
