@@ -10,6 +10,7 @@ typedef struct {
     uint16_t sp;
     uint8_t  flags;
     uint8_t  memory[65536];
+    bool halted;
 } nexus_cpu_t;
 
 void nexus_cpu_reset(nexus_cpu_t *cpu);
