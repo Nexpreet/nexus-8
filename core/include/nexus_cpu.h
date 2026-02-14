@@ -14,6 +14,6 @@ typedef struct {
 } nexus_cpu_t;
 
 void nexus_cpu_reset(nexus_cpu_t *cpu);
-void nexus_cpu_step(nexus_cpu_t *cpu);
+int nexus_cpu_step(nexus_cpu_t *cpu);
 
 #endif
